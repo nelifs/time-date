@@ -13,4 +13,4 @@ document.getElementById("time").innerHTML = `${hour + ':' + minute + ':' + secon
 }
 
 date()
-setInterval(function(){date()}, 10)
+setInterval(function(){date()}, 500)
