@@ -39,7 +39,7 @@ body {
     right: -12px;
     bottom: -12px;
     filter: brightness(90%);
-    background: url("https://images.wallpapersden.com/image/download/abstract-shapes-2021-minimalist_bG1lZm6UmZqaraWkpJRobWllrWdma2U.jpg") no-repeat center;
+    background: url("../images/bg.jpg") no-repeat center;
     background-size: cover;
 }
 ::selection {
