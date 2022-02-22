@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    font-family: Lexend Peta;
+    overflow: hidden;
+}
+.maintext {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 28%;
+    font-size: 3.5vw;
+}
+.time {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 28%;
+    font-size: 7.5vw;
+}
+.transition {
+    color: white;
+    position: absolute;
+    transition: all 500ms ease;
+    z-index: 2;
+    width: 100%;
+    top: 35%;
+    transform: rotateX(20deg) rotateY(20deg); 
+    letter-spacing: 25px;
+}
+.transition:hover {
+    transform: rotateX(0deg) rotateY(0deg);
+    letter-spacing: 0px;
+}
+.bg {
+    position: absolute;
+    z-index: -1;
+    left: -12px;
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    filter: brightness(90%);
+    background: url("../images/bg.jpg") no-repeat center;
+    background-size: cover;
+}
+::selection {
+    background: #1c1f72;
+    color: #fff;
+}
