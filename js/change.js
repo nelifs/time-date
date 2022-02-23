@@ -1,4 +1,4 @@
-function change() {
+function change() { 
     let time = document.getElementById("transition1")
     let date = document.getElementById("transition2")
     let ch = "time"
