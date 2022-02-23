@@ -1,0 +1,29 @@
+.button {
+    height: 3.5rem;
+    width: 10rem;
+    border: none;
+    background: transparent;
+    color: #f2f2f2;
+    padding: 10px;
+    z-index: 10;
+    font-size: 1.4rem;
+    font-family: Lexend Peta;
+    border: solid rgb(255, 255, 255) 0px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: all 500ms ease; 
+    letter-spacing: 10px;
+    opacity: 0.1;
+    filter: blur(2px)
+}
+.button:hover {
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255) 1px;
+    opacity: 1;
+    filter: blur(0px)
+}
+.button:active {
+    transition: all 100ms ease; 
+    text-shadow: 0px 0px 15px rgb(255, 255, 255);
+    opacity: 1;
+}
